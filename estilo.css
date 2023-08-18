@@ -1,0 +1,2221 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+
+    padding: 0px;
+
+}
+
+body {
+    width: 100%
+}
+
+.imglateral {
+
+    width: 130px;
+
+    height: 140px;
+
+}
+
+.flex {
+
+    position: fixed;
+
+    width: 130px;
+
+    height: 100%;
+
+    background-color: #474A51;
+
+}
+
+nav {
+    position: absolute;
+
+    top: 160px;
+
+}
+
+i {
+    font-size: 50px;
+
+    margin: 35px;
+
+    color: white;
+
+}
+
+
+
+.nav1 {
+
+    text-align: center;
+
+    color: white;
+
+    font-family: 'Montserrat', sans-serif;
+
+    margin-bottom: 5px;
+
+}
+
+
+
+.cab {
+
+    background-color: black;
+
+    position: absolute;
+
+    top: 0px;
+
+    left: 130px;
+
+    width: 90%;
+
+    height: 330px;
+
+    text-align: center;
+
+    color: white;
+
+}
+
+
+
+.titulo {
+    font-size: 70px;
+
+    position: absolute;
+
+    left: 300px;
+
+    top: 60px;
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+.sub-titulo {
+
+    position: absolute;
+
+    top: 180px;
+
+    left: 390px;
+
+    font-size: 20px;
+
+    font-family: 'Montserrat', sans-serif;
+
+
+
+
+
+}
+
+
+
+.geral {
+
+    background-image: url(https://www.w3schools.com/w3images/man_smoke.jpg);
+
+    position: absolute;
+
+    top: 300px;
+
+    left: 130px;
+
+    width: 90%;
+
+    height: 1000px;
+
+}
+
+.biografia {
+
+    background-color: black;
+
+    position: absolute;
+
+    left: 130px;
+
+    width: 90%;
+
+    top: 1300px;
+
+    height: 500px;
+
+}
+
+
+
+.titulo2 {
+
+    position: absolute;
+
+    left: 70px;
+
+    top: 200px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    color: white;
+
+    font-size: 30px;
+
+    padding-bottom: 30px;
+
+    width: 200px;
+
+    border-bottom: 1px solid white;
+
+}
+
+.sub-titulo2 {
+
+    position: absolute;
+
+    left: 70px;
+
+    color: #474A51;
+
+    top: 300px;
+
+    width: 1000px;
+
+    line-height: 23px;
+
+}
+
+.habilidades {
+
+    background-color: black;
+
+    position: absolute;
+
+    left: 130px;
+
+    width: 90%;
+
+    top: 1700px;
+
+    height: 900px;
+
+}
+
+.titulo3 {
+
+    position: absolute;
+
+    left: 70px;
+
+    top: 30px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    color: white;
+
+    font-size: 27px;
+
+}
+
+.photograph {
+
+    position: absolute;
+
+    top: 100px;
+
+    color: #474A51;
+
+    font-size: 16px;
+
+    letter-spacing: 5px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    left: 70px;
+
+}
+
+.progress-bar {
+
+    position: absolute;
+
+    top: 140px;
+
+    left: 70px;
+
+    width: 1000px;
+
+    height: 20px;
+
+    padding: 5px;
+
+    background-color: white;
+
+}
+
+.progress-barinter {
+
+    position: absolute;
+
+    height: 20px;
+
+    top: 0px;
+
+    left: 0px;
+
+    width: 900px;
+
+    background-color: #474A51;
+
+    padding: 5px;
+
+
+
+}
+
+.web {
+
+    position: absolute;
+
+    top: 200px;
+
+    color: #474A51;
+
+    font-size: 16px;
+
+    letter-spacing: 5px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    left: 70px;
+
+}
+
+.progress-bar2 {
+
+    position: absolute;
+
+    top: 240px;
+
+    left: 70px;
+
+    width: 1000px;
+
+    height: 20px;
+
+    padding: 5px;
+
+    background-color: white;
+}
+
+
+
+.progress-barinter2 {
+
+    position: absolute;
+
+    height: 20px;
+
+    top: 0px;
+
+    left: 0px;
+
+    width: 900px;
+
+    background-color: #474A51;
+
+    padding: 5px;
+}
+
+.photoshop {
+
+    position: absolute;
+
+    top: 300px;
+
+    color: #474A51;
+
+    font-size: 16px;
+
+    letter-spacing: 5px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    left: 70px;
+}
+
+.progress-bar3 {
+
+    position: absolute;
+
+    top: 340px;
+
+    left: 70px;
+
+    width: 1000px;
+
+    height: 20px;
+
+    padding: 5px;
+
+    background-color: white;
+}
+
+
+
+
+
+.projetos {
+
+    position: relative;
+
+    display: flex;
+
+    top: 400px;
+
+    background-color: #D3D3D3;
+
+    width: 1000px;
+
+    height: 130px;
+
+    left: 70px;
+
+}
+
+.l1 {
+
+    position: absolute;
+
+    font-family: 'Montserrat', sans-serif;
+
+    margin: 35px 80px;
+
+    text-align: center;
+
+    color: black;
+
+}
+
+.r1 {
+
+    font-size: 25px;
+
+}
+
+.r2 {
+
+    margin-top: 5px;
+
+    font-size: 20px;
+
+}
+
+.l2 {
+    position: absolute;
+
+    left: 200px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    margin: 35px 100px;
+
+    text-align: center;
+
+    color: black;
+
+}
+
+.l3 {
+    position: absolute;
+
+    left: 450px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    margin: 35px 100px;
+
+    text-align: center;
+
+    color: black;
+
+}
+
+.l4 {
+    position: absolute;
+
+    left: 700px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    margin: 35px 100px;
+
+    text-align: center;
+
+    color: black;
+
+
+
+}
+
+.buttondow {
+
+    position: absolute;
+
+    left: 70px;
+
+    top: 560px;
+
+    width: 230px;
+
+    padding: 0px;
+
+    height: 50px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 14.5px;
+
+    border: none;
+
+}
+
+
+
+.bi-download {
+
+    font-size: 15px;
+
+    color: black;
+
+    padding-right: 0px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 20px;
+
+    margin-right: 4px;
+
+    margin-left: 1px;
+
+}
+
+.flex3 {
+
+    width: 90%;
+
+    position: relative;
+
+    display: flex;
+
+    top: 2370px;
+
+    background-color: black;
+
+    height: 700px;
+
+    left: 130px;
+
+}
+
+.projeto-tit {
+
+    font-family: 'Montserrat', sans-serif;
+
+    position: absolute;
+
+    left: 70px;
+
+    color: white;
+
+    font-size: 27px;
+
+}
+
+.basic {
+
+    position: relative;
+
+    left: 70px;
+
+    top: 70px;
+
+    border: 2px solid #D3D3D3;
+
+    width: 470px;
+
+    height: 557px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    margin-right: 20px;
+
+}
+
+.tit-2 {
+
+    text-align: center;
+
+    font-size: 25px;
+
+    padding-top: 30px;
+
+    width: 470px;
+
+    height: 40px;
+
+    color: white;
+
+    background-color: black;
+
+    padding-bottom: 30px;
+
+}
+
+.tit-1 {
+
+    text-align: center;
+
+    font-size: 16px;
+
+    color: black;
+
+    background-color: white;
+
+    height: 40px;
+
+    border: 1px solid #D3D3D3;
+
+    padding-top: 14px;
+
+    width: 470px;
+
+}
+
+.preco {
+
+    text-align: center;
+
+    border: 1px solid #D3D3D3;
+
+    background-color: white;
+
+    font-family: 'Montserrat', sans-serif;
+
+    height: 135px;
+
+    width: 470px;
+
+}
+
+
+
+.tit-3 {
+
+    font-size: 30px;
+
+    padding-top: 30px;
+
+    padding-bottom: 10px;
+
+}
+
+.tit-4 {
+
+    padding-bottom: 30px;
+
+}
+
+.butt {
+
+    border: 1px solid #D3D3D3;
+
+    height: 95px;
+
+    width: 470px;
+
+    background-color: white;
+
+}
+
+.button5 {
+
+    position: absolute;
+
+    left: 180px;
+
+    top: 490px;
+
+    width: 120px;
+
+    height: 45px;
+
+    border: none;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 17px;
+
+
+
+}
+
+.reputação {
+
+    width: 90%;
+
+    position: relative;
+
+    top: 2370px;
+
+    left: 130px;
+
+    background-color: black;
+
+    height: 280px;
+
+}
+
+.reput {
+
+    position: absolute;
+
+    left: 70px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    color: white;
+
+    font-size: 27px;
+
+}
+
+.cont1 {
+
+    position: absolute;
+
+    top: 65px;
+
+    left: 70px;
+
+    width: 500px;
+
+    height: 100px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    display: flex;
+
+    color: #D3D3D3;
+
+    font-size: 19px;
+
+}
+
+.imgcont {
+
+    background-image: url(https://www.w3schools.com/w3images/bandmember.jpg);
+
+    padding: 10px;
+
+    width: 50px;
+
+    height: 50px;
+
+    border-radius: 50%;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    margin-right: 17px;
+
+}
+
+.text11 {
+
+    margin-top: 15px;
+
+}
+
+.cont2 {
+
+    position: absolute;
+
+    top: 170px;
+
+    left: 70px;
+
+    width: 500px;
+
+    height: 100px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    display: flex;
+
+    color: #D3D3D3;
+
+    font-size: 19px;
+
+}
+
+.imgcont2 {
+
+    background-image: url(https://www.w3schools.com/w3images/avatar_g2.jpg);
+
+    padding: 10px;
+
+    width: 50px;
+
+    height: 50px;
+
+    border-radius: 50%;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    margin-right: 17px;
+
+}
+
+
+
+.fotos {
+
+    position: relative;
+
+    left: 130px;
+
+    top: 2360px;
+
+    background-color: black;
+
+    width: 90%;
+
+    height: 1650px;
+
+}
+
+.titulo5 {
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 30px;
+
+    position: absolute;
+
+    top: 150px;
+
+    left: 70px;
+
+    border-bottom: 2px solid white;
+
+    color: white;
+
+    padding-bottom: 15px;
+
+    width: 200px;
+
+}
+
+.img5 {
+
+    background-image: url(https://www.w3schools.com/w3images/wedding.jpg);
+
+    position: absolute;
+
+    left: 70px;
+
+    width: 500px;
+
+    height: 300px;
+
+    top: 230px;
+
+    background-size: cover;
+
+}
+
+.img6 {
+
+    background-image: url(https://www.w3schools.com/w3images/underwater.jpg);
+
+    position: absolute;
+
+    left: 590px;
+
+    width: 500px;
+
+    height: 500px;
+
+    top: 230px;
+
+    background-size: cover;
+
+}
+
+.img7 {
+
+    background-image: url(https://www.w3schools.com/w3images/rocks.jpg);
+
+    position: absolute;
+
+    left: 70px;
+
+    width: 500px;
+
+    height: 770px;
+
+    top: 540px;
+
+    background-size: cover;
+
+}
+
+.img8 {
+
+    background-image: url(https://www.w3schools.com/w3images/chef.jpg);
+
+    position: absolute;
+
+    left: 590px;
+
+    width: 500px;
+
+    height: 280px;
+
+    top: 740px;
+
+    background-size: cover;
+
+}
+
+.img9 {
+
+    background-image: url(https://www.w3schools.com/w3images/wedding.jpg);
+
+    position: absolute;
+
+    left: 590px;
+
+    width: 500px;
+
+    height: 280px;
+
+    top: 1030px;
+
+    background-size: cover;
+
+}
+
+
+
+.img10 {
+
+    background-image: url(https://www.w3schools.com/w3images/sailboat.jpg);
+
+    position: absolute;
+
+    left: 70px;
+
+    width: 500px;
+
+    height: 280px;
+
+    top: 1322px;
+
+    background-size: cover;
+
+}
+
+.img11 {
+
+    background-image: url(https://www.w3schools.com/w3images/p6.jpg);
+
+    position: absolute;
+
+    left: 590px;
+
+    width: 500px;
+
+    height: 280px;
+
+    top: 1320px;
+
+    background-size: cover;
+
+}
+
+.contatos1 {
+
+    position: absolute;
+
+    top: 4990px;
+
+    left: 130px;
+
+    width: 90%;
+
+    background-color: black;
+
+    height: 400px;
+
+}
+
+
+
+.titulo10 {
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 30px;
+
+    position: absolute;
+
+    top: 150px;
+
+    left: 70px;
+
+    border-bottom: 1px solid white;
+
+    color: white;
+
+    padding-bottom: 15px;
+
+    width: 200px;
+
+}
+
+.bi-geo-alt {
+
+    position: absolute;
+
+    top: 180px;
+
+    left: 70px;
+
+    font-size: 30px;
+
+    display: flex;
+
+}
+
+.loc1 {
+
+    margin-left: 15px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 20px;
+
+    text-decoration: none;
+
+}
+
+
+
+.bi-telephone-fill {
+
+    position: absolute;
+
+    top: 230px;
+
+    left: 70px;
+
+    font-size: 30px;
+
+    display: flex;
+
+    width: 300px;
+
+}
+
+.loc2 {
+
+    margin-left: 15px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 20px;
+
+    text-decoration: none;
+
+}
+
+
+
+.env1 {
+
+    position: absolute;
+
+    top: 280px;
+
+    left: 70px;
+
+    font-size: 30px;
+
+    display: flex;
+
+    width: 300px;
+
+}
+
+
+
+.loc3 {
+
+    margin-left: 15px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 20px;
+
+    text-decoration: none;
+
+}
+
+
+
+.bi-envelope {
+
+    position: absolute;
+
+    top: 280px;
+
+    left: 70px;
+
+    font-size: 30px;
+
+    display: flex;
+
+}
+
+
+
+
+
+
+
+
+
+.form5 {
+
+    position: relative;
+
+    left: 130px;
+
+    top: 2750px;
+
+    background-color: black;
+
+    width: 90%;
+
+    height: 600px;
+
+
+
+
+
+}
+
+.sub-titulo6 {
+
+    position: absolute;
+
+    left: 70px;
+
+    color: #D3D3D3;
+
+    top: 20px;
+
+    font-family: 'Montserrat', sans-serif;
+
+
+
+}
+
+form {
+
+    position: relative;
+
+    top: 60px;
+
+    left: 70px;
+
+    width: 900px;
+
+    height: 500px;
+
+}
+
+
+
+#email {
+
+    width: 898px;
+
+    height: 40px;
+
+    margin-bottom: 20px;
+
+    font-family: 'Montserrat', sans-serif;
+
+
+
+}
+
+
+
+#username {
+
+    width: 898px;
+
+    height: 50px;
+
+    margin-bottom: 20px;
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+#button1 {
+
+    width: 200px;
+
+    height: 50px;
+
+    margin-bottom: 20px;
+
+    border: none;
+
+    background-color: white;
+
+}
+
+.bi-send {
+
+    font-size: 14.5px;
+
+    color: black;
+
+    padding: 0px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    text-decoration: none;
+
+    margin-right: 1px;
+
+    margin-left: 1px;
+
+}
+
+.sociais {
+
+    position: relative;
+
+    top: 2750px;
+
+    left: 130px;
+
+    background-color: black;
+
+    height: 100px;
+
+    width: 90%;
+
+
+
+}
+
+#seila {
+
+    margin-top: 50px;
+
+    font-size: 20px;
+
+    margin-left: 70px;
+
+    margin-right: 2px;
+
+    color: #D3D3D3;
+
+}
+
+#pt {
+
+    margin-top: 50px;
+
+    margin-left: 0px;
+
+    margin-right: 2px;
+
+    font-size: 20px;
+
+    color: #D3D3D3;
+
+}
+
+
+
+
+
+
+
+ @media(max-width: 390px){
+
+    body {
+        width: 390px;
+    }
+
+    .flex {
+        height: 50px;
+        width: 390px;
+        display: flex;
+        background-color: black;
+    }
+
+    .imglateral {
+        display: none;
+    }
+
+    nav {
+        position: absolute;
+
+        top: 0px;
+
+        display: flex;
+
+        background-color: black;
+
+        margin-left: 5px;
+
+    }
+
+    nav i {
+        display: none;
+    }
+
+
+
+    .nav1 {
+
+        text-align: center;
+
+        color: white;
+
+        font-family: 'Montserrat', sans-serif;
+
+        margin-bottom: 0px;
+
+        margin-left: 20px;
+
+        margin-top: 15px;
+
+    }
+
+
+
+    .cab {
+
+        background-color: black;
+
+        position: absolute;
+
+        top: 50px;
+
+        left: 0px;
+
+        width: 390px;
+
+        height: 330px;
+
+        text-align: center;
+
+        color: white;
+
+    }
+
+
+
+    .titulo {
+        font-size: 60px;
+
+        position: absolute;
+
+        left: 10px;
+
+        top: 60px;
+
+        font-family: 'Montserrat', sans-serif;
+
+    }
+
+
+
+    .sub-titulo {
+
+        position: absolute;
+
+        top: 250px;
+
+        left: 20px;
+
+        font-size: 20px;
+
+        font-family: 'Montserrat', sans-serif;
+
+
+
+
+
+    }
+
+
+
+    .geral {
+
+        background-image: url(https://www.w3schools.com/w3images/man_smoke.jpg);
+
+        position: absolute;
+
+        top: 365px;
+
+        left: 0px;
+
+        width: 390px;
+
+        height: 400px;
+
+        background-size: cover;
+
+    }
+
+
+
+    .biografia {
+
+        background-color: black;
+
+        position: absolute;
+
+        left: 0px;
+
+        width: 390px;
+
+        top: 700px;
+
+        height: 800px;
+
+    }
+
+
+
+
+
+    .sub-titulo2 {
+
+        position: absolute;
+
+        left: 5px;
+
+        color: #474A51;
+
+        top: 300px;
+
+        width: 380px;
+
+        line-height: 23px;
+
+        font-size: 20px;
+    }
+
+
+
+
+
+
+
+    .titulo2 {
+
+        position: absolute;
+
+        left: 30px;
+
+        top: 200px;
+
+        font-family: 'Montserrat', sans-serif;
+
+        color: white;
+
+        font-size: 30px;
+
+        padding-bottom: 30px;
+
+        width: 200px;
+
+        border-bottom: 1px solid white;
+
+    }
+
+    .sub-titulo2 {
+
+        position: absolute;
+
+        left: 30px;
+
+        top: 300px;
+
+        width: 330px;
+
+        font-family: 'Montserrat', sans-serif;
+
+        font-size: 16px;
+
+        height: 470px;
+
+        color: white;
+
+    }
+
+
+
+
+
+    .habilidades {
+
+        position: absolute;
+
+        left: 0px;
+
+        width: 390px;
+
+        top: 1500px;
+
+        height: 900px;
+
+    }
+
+    .titulo3 {
+
+        left: 30px;
+
+        top: 30px;
+
+    }
+
+    .photograph {
+
+        position: absolute;
+
+        left: 30px;
+
+    }
+
+    .progress-bar {
+
+        left: 30px;
+
+        width: 300px;
+
+
+
+    }
+
+    .progress-barinter {
+
+        left: 30px;
+
+        width: 280px;
+
+        background-color: #474A51;
+
+        padding: 5px;
+
+
+
+    }
+
+    .web {
+
+        left: 30px;
+
+    }
+
+    .progress-bar2 {
+
+        position: absolute;
+
+        top: 240px;
+
+        left: 30px;
+
+        width: 310px;
+
+    }
+
+
+
+    .progress-barinter2 {
+
+        left: 0px;
+
+        width: 280px;
+
+    }
+
+
+
+
+
+    .photoshop {
+
+        left: 30px;
+    }
+
+
+
+    .progress-bar3 {
+
+        top: 340px;
+
+        left: 30px;
+
+        width: 310px;
+
+    }
+
+
+
+
+    .projetos {
+
+        position: relative;
+
+        top: 400px;
+
+        display: flex;
+
+        flex-direction: column;
+
+        width: 300px;
+
+        height: 400px;
+
+        left: 30px;
+
+    }
+
+    .l1 {
+
+        position: absolute;
+
+
+
+        margin: 35px 100px;
+
+    }
+
+    .r1 {
+
+        font-size: 25px;
+
+    }
+
+    .r2 {
+
+        margin-top: 5px;
+
+        font-size: 20px;
+
+    }
+
+    .l2 {
+        position: absolute;
+
+        left: 10px;
+
+        top: 80px;
+
+        margin: 35px 70px;
+
+
+
+    }
+
+    .l3 {
+        position: absolute;
+
+        left: 10px;
+
+        top: 160px;
+
+        margin: 35px 70px;
+
+    }
+
+    .l4 {
+
+        left: 10px;
+
+        top: 240px;
+
+        margin: 35px 90px;
+
+        text-align: center;
+
+        color: black;
+
+
+
+    }
+
+    .buttondow {
+
+        left: 30px;
+
+        top: 820px;
+
+        width: 200px;
+
+        height: 50px;
+
+
+
+    }
+
+
+
+    .bi-download {
+
+        font-size: 16px;
+
+        margin-right: 1px;
+
+        margin-left: 1px;
+
+    }
+
+
+
+    .flex3 {
+
+        width: 390px;
+
+        position: relative;
+
+        display: flex;
+
+        flex-direction: column;
+
+        top: 2400px;
+
+        background-color: black;
+
+        height: 1200px;
+
+        left: 0px;
+
+    }
+
+    .projeto-tit {
+
+        left: 30px;
+
+
+
+    }
+
+    .basic {
+
+        left: 30px;
+
+        top: 70px;
+
+        border: 2px solid #D3D3D3;
+
+        width: 300px;
+
+        height: 500px;
+
+        font-family: 'Montserrat', sans-serif;
+
+        margin-bottom: 20px;
+
+    }
+
+    .tit-2 {
+
+        width: 300px;
+
+    }
+
+    .tit-1 {
+
+        width: 300px;
+
+    }
+
+    .preco {
+
+        text-align: center;
+
+        border: 1px solid #D3D3D3;
+
+        background-color: white;
+
+        font-family: 'Montserrat', sans-serif;
+
+        height: 80px;
+
+        width: 300px;
+
+    }
+
+
+
+    .tit-3 {
+
+        font-size: 20px;
+
+        padding-top: 10px;
+
+        padding-bottom: 10px;
+
+    }
+
+    .tit-4 {
+
+        padding-bottom: 30px;
+
+    }
+
+
+
+
+
+    .butt {
+
+        border: 1px solid #D3D3D3;
+
+        height: 95px;
+
+        width: 300px;
+
+        background-color: white;
+
+    }
+
+    .button5 {
+
+        position: absolute;
+
+        left: 100px;
+
+        top: 430px;
+
+    }
+
+
+
+    .reputação {
+
+        width: 390px;
+
+        left: 0px;
+
+        height: 280px;
+
+    }
+
+    .reput {
+
+        left: 30px;
+
+    }
+
+    .cont1 {
+
+        left: 30px;
+
+        width: 330px;
+
+        height: 50px;
+
+        font-size: 15px;
+
+    }
+
+
+
+    .text11 {
+
+        margin-top: 10px;
+
+    }
+
+    .cont2 {
+
+        left: 30px;
+
+        width: 330px;
+
+        height: 50px;
+
+        font-size: 15px;
+
+    }
+
+
+
+    .fotos {
+
+        left: 0px;
+
+        top: 2360px;
+
+        width: 390px;
+
+        height: 2100px;
+
+        display: flex;
+
+
+
+    }
+
+    .titulo5 {
+
+        left: 30px;
+
+    }
+
+    .img5 {
+
+        background-image: url(https://www.w3schools.com/w3images/wedding.jpg);
+
+        left: 30px;
+
+        width: 320px;
+
+        height: 200px;
+
+        top: 230px;
+
+        background-size: cover;
+
+    }
+
+    .img6 {
+
+        background-image: url(https://www.w3schools.com/w3images/underwater.jpg);
+
+        left: 30px;
+
+        width: 320px;
+
+        height: 200px;
+
+        top: 450px;
+
+        background-size: cover;
+
+    }
+
+    .img7 {
+
+        background-image: url(https://www.w3schools.com/w3images/rocks.jpg);
+
+        position: absolute;
+
+        left: 30px;
+
+        width: 320px;
+
+        height: 500px;
+
+        top: 1540px;
+
+        background-size: cover;
+
+    }
+
+    .img8 {
+
+        background-image: url(https://www.w3schools.com/w3images/chef.jpg);
+
+        position: absolute;
+
+        left: 30px;
+
+        width: 320px;
+
+        height: 200px;
+
+        top: 670px;
+
+        background-size: cover;
+
+    }
+
+    .img9 {
+
+        background-image: url(https://www.w3schools.com/w3images/wedding.jpg);
+
+        position: absolute;
+
+        left: 30px;
+
+        width: 320px;
+
+        height: 200px;
+
+        top: 890px;
+
+        background-size: cover;
+
+    }
+
+
+
+    .img10 {
+
+        background-image: url(https://www.w3schools.com/w3images/sailboat.jpg);
+
+        position: absolute;
+
+        left: 30px;
+
+        width: 320px;
+
+        height: 200px;
+
+        top: 1100px;
+
+        background-size: cover;
+
+    }
+
+    .img11 {
+
+        background-image: url(https://www.w3schools.com/w3images/p6.jpg);
+
+        position: absolute;
+
+        left: 30px;
+
+        width: 300px;
+
+        height: 200px;
+
+        top: 1320px;
+
+        background-size: cover;
+
+    }
+
+    .contatos1 {
+
+        top: 5930px;
+
+        left: 0px;
+
+        width: 390px;
+
+    }
+
+
+
+    .titulo10 {
+
+        top: 150px;
+
+        left: 30px;
+
+    }
+
+    .bi-geo-alt {
+
+        left: 10px;
+
+
+
+    }
+
+    .loc1 {
+
+        margin-left: 15px;
+
+        font-family: 'Montserrat', sans-serif;
+
+        font-size: 20px;
+
+        text-decoration: none;
+
+    }
+
+
+
+    .bi-telephone-fill {
+
+        position: absolute;
+
+        top: 230px;
+
+        left: 10px;
+
+    }
+
+    .loc2 {
+
+        margin-left: 15px;
+
+        font-family: 'Montserrat', sans-serif;
+
+        font-size: 20px;
+
+        text-decoration: none;
+
+    }
+
+
+
+    .bi-envelope {
+
+        left: 10px;
+
+    }
+
+    .form5 {
+
+
+
+        left: 0px;
+
+
+
+        width: 390px;
+
+        height: 600px;
+
+
+
+
+
+    }
+
+    .sub-titulo6 {
+
+        left: 30px;
+
+    }
+
+    form {
+
+        left: 30px;
+
+        width: 300px;
+
+
+
+    }
+
+
+
+    #email {
+
+        width: 320px;
+
+    }
+
+
+
+    #username {
+
+        width: 320px;
+    }
+
+
+
+    #button1 {
+
+        width: 200px;
+
+        height: 50px;
+
+        margin-bottom: 20px;
+
+        border: none;
+
+        background-color: white;
+
+    }
+
+    .bi-send {
+
+        font-size: 14.5px;
+
+        color: black;
+
+        padding: 0px;
+
+        font-family: 'Montserrat', sans-serif;
+
+        text-decoration: none;
+
+        margin-right: 1px;
+
+        margin-left: 1px;
+
+    }
+
+    .sociais {
+
+        left: 0px;
+
+        width: 390px;
+
+
+
+    }
+
+    #seila {
+
+        margin-top: 50px;
+
+        font-size: 20px;
+
+        margin-left: 30px;
+
+        margin-right: 2px;
+
+        color: #D3D3D3;
+
+    }
+
+    #pt {
+
+        margin-top: 50px;
+
+        margin-left: 0px;
+
+        margin-right: 2px;
+
+        font-size: 20px;
+
+        color: #D3D3D3;
+
+    }
+
+}
